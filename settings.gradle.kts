@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "HelloWorld"
-include(":app")
+rootProject.name = "KartenspielApp"
+include(":app", ":domain", ":data", ":core")
